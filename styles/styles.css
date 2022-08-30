@@ -87,4 +87,7 @@ footer{
 
     flex-wrap: nowrap;
 }
+p{
+   margin-left: 3px;
+}
 }
