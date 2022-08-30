@@ -1,0 +1,90 @@
+*b{
+    box-sizing:border-box;
+}
+body{
+    background-color: rgb(167, 212, 179);
+}
+
+h1{
+    text-align: center;
+    background-color: rgb(181, 25, 25);
+    color: white;
+    border: 5px dotted green;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 3rem;
+}
+section{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    
+
+}
+p{
+ margin-left: 13px;
+}
+.box{
+    background-color: rgb(175, 102, 13);
+    margin: 3px;
+    border-radius: 7px;
+}
+
+
+/* main boxes  */
+
+#box-1,#box-2,#box-3{
+    width: 33%;
+    border-radius:7px;
+    
+}
+#box-2-1,#box-2-2, #box-2-3, #box-2-4{
+    width: 25%;
+}
+
+#box-3-1, #box-3-2,#box-3-3,#box-3-4,#box-3-5{
+    width: 19%;
+}
+
+/* sub boxes of box 1 large */
+.in-box-1, .in-box-2, .in-box-3{
+    display: flex;
+    
+
+}
+#sub-box-1,#sub-box-2,#sub-box-3{
+    width:33%;
+    background-color: antiquewhite;
+    
+}
+#sub-box-2-1, #sub-box-2-2, #sub-box-2-3,#sub-box-2-4{
+    width: 24%;
+    background-color: antiquewhite;
+}
+#sub-box-3-1,#sub-box-3-2,#sub-box-3-3,#sub-box-3-4,#sub-box-3-5{
+    width: 19%;
+    background-color: antiquewhite ;
+}
+
+footer{
+    background-color:rgb(181, 25, 25) ;
+    padding: 10px;
+    color: WHITE;
+    margin-top: 3em;
+    border: 5px dotted green;
+    border-radius: 8px;
+    text-align: center;
+    
+}
+
+
+@media screen and (max-width: 600px) {
+    section{
+        flex-wrap: nowrap;
+    }
+
+.in-box-1, .in-box-2, .in-box-3{
+
+    flex-wrap: nowrap;
+}
+}
